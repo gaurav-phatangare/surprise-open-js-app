@@ -1,0 +1,92 @@
+* {
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* .main-container{
+    /* display: flex; */
+/* flex-wrap: wrap; */
+
+body {
+    background-image: url(pexels-quintin-gellar-313782.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.drawer-top {
+    background-color:rgb(135, 207, 235);
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.drawer-bottom {
+    background-color:rgba(255, 255, 0, 0.644);
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.drawer-left {
+    background-color:rgba(128, 128, 128, 0.671);
+    width: 50%;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.drawer-right {
+    background-color:rgba(0, 0, 0, 0.349);
+    width: 50%;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.open-btn {
+    position: absolute;
+    right: 45%;
+    left: 47.5%;
+    top: 44%;
+    bottom: 50%;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+    
+
+
+
+
+.hidden {
+    width: 0px;
+    transition: height, 0.5s linear;
+}
+
+.hidden.open {
+    width: 50%;
+    transition: height, 0.5s linear;
+}
+
+
+
+.hi {
+    height: 0px;
+    transition: height, 1.5s linear;
+}
+
+.hi.op {
+    height: 50%;
+    transition: height, 1.5s linear;
+}
